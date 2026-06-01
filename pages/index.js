@@ -11,7 +11,7 @@ const SECTIONS = [
   { title: "Dominio del Tema (Pitch)", description: "¿Demuestran conocimiento y seguridad al exponer?", emoji: "🎤" }
 ];
 
-const GRUPOS = Array.from({ length: 16 }, (_, i) => `Grupo ${i + 1}`);
+const GRUPOS = Array.from({ length: 17 }, (_, i) => `Grupo ${i + 1}`);
 const FEEDBACK_LABELS = ["", "Necesita trabajo", "Aceptable", "Bueno", "Muy bueno", "¡Excelente!"];
 const FEEDBACK_COLORS = ["", "text-rose-400", "text-orange-400", "text-yellow-400", "text-emerald-400", "text-cyan-400"];
 const MAX_COMMENT = 500;
